@@ -7,7 +7,7 @@ Primera prueba:
 - La libreria utilizada es yt-dlp
 - Tenemos tambien que instalar el paquete ffmpeg
 - Solo descargamos el audio formato mp3 y m4a.
-
+- Link de info : https://github.com/yt-dlp/yt-dlp#readme
 Comandos necesarios:
 - sudo apt install ffmpeg
 - pip install yt-dlp
