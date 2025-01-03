@@ -1,0 +1,82 @@
+id,start,end,text
+0,0.0,5.4," Entonces, a lo largo de la vida, se retorjarán tres veces de cada cuatro trajes y una vez de los tailos."
+1,5.4,9.4," Por supuesto, puede retorgar nada, pero notemos que la probabilidad de los tailos"
+2,9.4,11.88, va a ser tres cuartos.
+3,11.88,15.36, Eso es para tres trajes dividido por los cuatro trajes.
+4,15.36,19.32," Y la probabilidad de los tailos es su complemento, así que es una cuarta,"
+5,19.32,22.72, que es una taila dividida por los cuatro trajes.
+6,22.72,25.36, Pero parece que la probabilidad no es exactamente lo que hay aquí.
+7,25.36,31.48," Queremos las odds y la odd es muy similar, excepto, en vez de dividir por el número total de trajes,"
+8,31.48,34.480000000000004, dividimos el número de trajes por el número de tailos.
+9,34.480000000000004,38.24," Entonces, el odd de obtener los trajes va a ser tres por uno."
+10,38.24,41.68," Y el odd de trajes va a ser el inversor multiplicativo,"
+11,41.68,46.0," que es una tercera, que es una taila dividida por los tres trajes."
+12,46.0,48.84," La odd es usada mucho en muchos lugares, en particular en los esportes,"
+13,48.84,53.04, puedes escuchar cosas como los odd de ganar un juego particular o tal.
+14,53.12,56.36, Pero vamos a hacer alguna plada para ver cómo las odd son.
+15,56.36,60.0," Entonces, aquí tenemos las odd de la cabeza, que es tres,"
+16,60.0,63.28," y aquí tenemos las odd de los tailos, que es una tercera."
+17,63.28,66.0," Y nos gustaría tener algo simétrico, pero tenemos un pequeño problema,"
+18,66.0,67.4, que es que esto no es simétrico.
+19,67.4,69.96000000000001," Imagínate si las odd no eran tres y una tercera,"
+20,69.96000000000001,72.28, pero en vez de que son siete y un séventh.
+21,72.28,76.0," Si la coiña era mucho más bias, por la cabeza, que por las tailas."
+22,76.0,80.88, Y los puntos están aquí y noten que el centro es uno.
+23,80.96,83.75999999999999," Y como hacemos la coiña más bias contra las cabezas,"
+24,83.75999999999999,86.88," las odd de las tailas van más cerca y más cerca al cero,"
+25,86.88,91.39999999999999," mientras las odd de la cabeza explotan y van muy, muy, muy longe."
+26,91.39999999999999,93.19999999999999, Dicimos que convergen hacia el infinito.
+27,93.19999999999999,94.6," Entonces, ese es el problema."
+28,94.6,97.47999999999999," ¿Qué podemos hacer para hacer esto un poco más simétrico,"
+29,97.47999999999999,99.36, para que no esté tan pequeño en la izquierda
+30,99.36,101.08, y gigante en la derecha?
+31,101.08,103.8," Bueno, hay una función que nos va a salvar."
+32,103.8,106.56, Y la función que nos va a salvar es el logaritmo.
+33,107.4,111.24000000000001," Recuerden, aquí tenemos las tres, las tres,"
+34,111.24000000000001,114.12, la siete y la de los siete.
+35,114.12,117.44, Y aquí es el uno y tenemos una asimetría
+36,117.44,120.24000000000001, contra la derecha y contra la derecha.
+37,120.24000000000001,121.60000000000001," Bueno, no hay problema."
+38,121.60000000000001,125.32000000000001," Si lo tomamos el logaritmo, entonces las cosas cambian."
+39,125.32000000000001,127.92," Por cierto, estoy tomando el logaritmo natural,"
+40,127.92,129.76," que es el e,"
+41,129.76,131.88, pero podemos tomar el logaritmo de nada más.
+42,131.88,133.24," Puede ser dos, puede ser diez,"
+43,133.24,134.72, puede ser cualquier número que quieras.
+44,134.72,136.28, Y lo mismo se va a llevar.
+45,136.32,138.2," Las cosas están en escala, los números van a cambiar,"
+46,138.2,139.64000000000001, pero la simetría no va a cambiar.
+47,139.64000000000001,141.0," Entonces, cuando tomamos el logaritmo,"
+48,141.0,142.72," entonces el uno va a cero,"
+49,142.72,145.76, porque el logaritmo de uno es siempre cero.
+50,145.76,146.92000000000002, Y ¿qué pasa con tres?
+51,146.92000000000002,149.88," Bueno, el logaritmo de tres es 1.1"
+52,149.88,153.96," y vean esto, el logaritmo de una tercera es menos 1.1."
+53,153.96,155.36," Entonces, hay simetría."
+54,155.36,156.44," Si hacemos esto para siete,"
+55,156.44,158.52," el logaritmo de siete es 1.95,"
+56,158.52,161.4, el logaritmo de siete es menos 1.95.
+57,161.4,163.08," Entonces, de nuevo, hay simetría."
+58,163.08,166.2, Y la razón para la simetría es que el logaritmo de uno o dos
+59,166.28,168.76, es el negativo del logaritmo de x.
+60,168.76,170.79999999999998," Esto es una función muy popular,"
+61,170.79999999999998,172.51999999999998," es llamada logODS,"
+62,172.51999999999998,174.2, y también es llamada logGit.
+63,174.2,176.35999999999999, Se aparece en todo en la escala de la máquina.
+64,176.35999999999999,180.0, Y vamos a usarla para ayudarnos a combinar los clasificadores.
+65,181.92,182.92," Ok, entonces, reconocemos que"
+66,182.92,185.0," tuvimos nuestros tres con los estudiantes aquí,"
+67,185.0,187.48, cada uno de ellos con un número correcto
+68,187.48,188.48," y correctos puntos,"
+69,188.48,190.88, que era un suma de los valores correctos
+70,190.88,193.32, y el suma de los valores incorrectos.
+71,193.32,194.28," Ahora, para cada uno de ellos,"
+72,194.28,195.79999999999998, vamos a calcular la probabilidad
+73,195.88000000000002,197.32000000000002," de estar correcto por el punto de vista normal,"
+74,197.32000000000002,199.32000000000002, pero los odds de estar correctos.
+75,199.32000000000002,200.4," Eso significa que para el primero,"
+76,200.4,202.12," tenemos un odds de 7 por 3,"
+77,202.12,203.8," para el segundo, 11 por 3,"
+78,203.8,205.72," y para el tercer, 19 por 3."
+79,205.72,208.88000000000002, Y luego calcularíamos los odds log o logGit.
+80,208.88000000000002,212.04000000000002," Entonces, los valores que obtenemos son 0.85."

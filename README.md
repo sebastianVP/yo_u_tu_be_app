@@ -8,12 +8,14 @@ Primera prueba:
 - Tenemos tambien que instalar el paquete ffmpeg
 - Solo descargamos el audio formato mp3 y m4a.
 - Link de info : https://github.com/yt-dlp/yt-dlp#readme
-
+- Instalamos tambien la libreria moviepy
+- pip install moviepy SpeechRecognition pydub
 
 Comandos necesarios:
 
 - sudo apt install ffmpeg
 - pip install yt-dlp
+
 
 
 

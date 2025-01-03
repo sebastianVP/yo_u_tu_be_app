@@ -1,0 +1,65 @@
+id,start,end,text
+0,0.0,4.48, que clasifica todo a su izquierda a su izquierda blu y a su izquierda a su red.
+1,4.48,8.02," Este clasificador es bueno pero no perfecto, vamos a tener que construir más."
+2,8.02,12.76," Y esta es la idea, cada aprendizaje va a enfocar en las pertenencias de los primeros."
+3,12.76,15.34, ¿Qué son las pertenencias de este clasificador?
+4,15.34,18.98," Bueno como pueden ver, a más de los puntos correctos, pero han hecho tres misiones,"
+5,18.98,23.18, que son estos tres triangles de blu que son clasificados en las pertenencias de la red.
+6,23.18,26.34, Así que vamos a asegurar que el próximo clasificador se enfoca en esos tres puntos.
+7,26.34,29.92, Pero primero vamos a instalar este aquí para laterar.
+8,30.0,33.6, Ahora vamos a construir un nuevo aprendizaje de la década de la nueva.
+9,33.6,36.2, Este nuevo se enfoca en enfocar más en los errores.
+10,36.2,41.480000000000004," Así que digamos que es esta línea horizontal aquí, que actualmente se ha hecho bien con los tres triangles."
+11,41.480000000000004,45.52," Entonces este también ha hecho algunos misiones, también ha hecho algunos misiones."
+12,45.52,46.52, ¿Cuáles son?
+13,46.52,51.88," Bueno, hay este red de blu que se clasificó como un triángulo de blu y hay estos dos triangles de blu"
+14,51.88,54.36, aquí que se clasificaron como red de cuadras.
+15,54.36,56.56, Entonces ha hecho tres misiones pero eso es bueno.
+16,56.68,61.52, Nosotros podemos ampliar estos misiones y luego instalar el clasificador para laterar.
+17,61.52,64.8, Ahora vamos a construir un nuevo clasificador en estos datos de clasificadores.
+18,64.8,66.88, Es mejor que se desplazen los puntos correctos.
+19,66.88,71.04," Esto podría ser esta línea aquí, que se clasificó todo al lado de la clasificadora,"
+20,71.04,73.12, como un triángulo de blu y al lado de la red de cuadras.
+21,73.12,76.32000000000001," Ahora podemos continuar ampliando los misiones y construyendo muchos estudios de las mesuras,"
+22,76.32000000000001,79.16, pero digamos que estemos aquí a tres y nos lo construyemos.
+23,79.16,81.32000000000001, Ahora tenemos tres mesuras de estudios de la semana para mezclar.
+24,81.32000000000001,82.88, Y nuestro último paso es eso.
+25,82.88,87.88, los 3 leonardes de la semana y obtener este fuerte clasifier aquí.
+26,87.88,90.75999999999999, Este es el fuerte leónard que AdaBoost construye para nosotros.
+27,90.75999999999999,95.08," Ahora, eso es el gesto de AdaBoost, pero hay algunos detalles para Iron, como, por qué"
+28,95.08,99.44," cuántos usan los errores de la calda, o cómo combinas los clasifires."
+29,99.44,102.66, Así que eso es lo que vamos a aprender el próximo.
+30,102.66,104.8, Entonces aquí es cómo construir cada leónar de la semana.
+31,104.8,108.25999999999999," Vamos a empezar con nuestro set de datos y a partir de esto, vamos a aplicar un peso de"
+32,108.25999999999999,110.6, 1 a cada uno de los puntos.
+33,110.6,114.03999999999999, El primer se va a poner un leónar de semana a este set de datos y vamos a decir que es
+34,114.03999999999999,116.05999999999999, este leónard.
+35,116.05999999999999,119.47999999999999," Más de ellos trabajan, pero no pueden hacer demasiado bien, porque el set de datos es un poco más"
+36,119.47999999999999,123.82, complejo que algo que puede ser explotado con un horizontal o un lunes vertical.
+37,123.82,125.22," Entonces, ¿cómo es bueno este leónard?"
+38,125.22,129.01999999999998," Bueno, vamos a contar cuántos puntos clasifirán correctamente y incorrectamente."
+39,129.01999999999998,134.78," Se clasifan 7 puntos correctamente, que son estos triángulos de azul aquí y estos"
+40,134.78,138.4," squares de red aquí, que son todos en el lado correcto."
+41,138.42000000000002,140.58, Y ¿cuántos puntos clasifan correctamente?
+42,140.58,142.26000000000002, Estos son 3.
+43,142.26000000000002,145.72, Los triángulos de azul aquí que son clasificados como un square de red.
+44,145.72,151.46, Ahora vamos a rescatar los 3 puntos clasifirán por algún factor y el factor va a ser 7 por
+45,151.46,152.46, 3.
+46,152.46,158.70000000000002," Eso es 2.33, entonces estos 3 puntos que son clasificados se rompen por un factor de 2.33."
+47,158.70000000000002,160.58, Y por qué es el factor 7 por 3?
+48,160.58,163.66, Porque tenemos 7 correctos y 3 incorrectos.
+49,163.66,167.66, Así que haz el número de correctos dividido por el número de incorrectos.
+50,167.72,171.64," Este ratio se verá más claro cuando hablamos de los odds en el video, pero para"
+51,171.64,176.6," ahora, digamos que es el número de puntos clasificados correctamente dividido por el número de puntos"
+52,176.6,178.35999999999999, clasificados incorrectamente.
+53,178.35999999999999,181.72, Entonces esto es nuestro set de data rescalado y ahora vamos a jugar el mismo juego de nuevo
+54,181.72,183.76, para construir el león de segunda semana.
+55,183.76,187.96, Entonces vamos a construir un león de segunda semana que se fita este set de data también
+56,187.96,188.96, como posible.
+57,188.96,192.72," Es un set de data rescalado, así que hay más énfasis en esos triángulos de azul que"
+58,192.72,194.28, mejor se entienden correctamente.
+59,194.28,197.07999999999998, Y ahora veamos cómo bien este león de segunda semana se hizo.
+60,197.14000000000001,199.98000000000002, Así que no vamos a contar el número de correctos y incorrectos.
+61,199.98000000000002,204.10000000000002," Estamos tomando el número de sus valores, así que eso va a ser 11."
+62,204.10000000000002,210.18, 11 porque hay 2.33 3 veces y entonces 1 4 veces.
+63,210.18,212.10000000000002, Entonces el número de los correctos valores es 11.
