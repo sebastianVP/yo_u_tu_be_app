@@ -1,92 +1,35 @@
 id,start,end,text
-0,0.0,4.2, y la cantidad de valores incorrectos es 3 porque es este punto de misclasificación
-1,4.2,6.640000000000001, aquí y estos dos aquí.
-2,6.72,11.36, Entonces ahora vamos a despliegar los puntos incorrectos por un factor de 11 por 3
-3,11.36,14.24, porque tenemos 11 correctos y 3 incorrectos.
-4,14.280000000000001,18.080000000000002," Es 3.67, que significa que estos 3 puntos aquí"
-5,18.400000000000002,21.32, se despliegan por un factor de 3.67.
-6,21.44,22.72, Y continuamos jugando el juego.
-7,22.76,27.12, Este es nuestro data scale nuevo y a este data set
-8,27.2,29.28, vamos a fitar un nuevo learner de la semana.
-9,29.32,31.520000000000003, Se debe dar esos grandes puntos correctamente.
-10,31.64,32.72, Y es este punto aquí.
-11,33.0,34.88," Entonces, ¿cuánto es este clasificador?"
-12,35.0,39.0," Bueno, ahora la cantidad de valores correctos será 19 porque"
-13,39.0,41.88, es esta vez más esta vez.
-14,42.0,46.400000000000006, Y la cantidad de puntos correctos es 3 porque es este 3 por aquí.
-15,46.52,49.0," Y podemos continuar escaliando y construyendo leonardos de la semana,"
-16,49.0,51.24, pero digamos que decidimos que no lo dejemos.
-17,51.400000000000006,54.56, Digamos que solo queremos 3 leonardos.
-18,54.64,57.6, Este es un parámetro de la que podemos encontrar
-19,57.6,60.68, usando cualquier de sus favoritos métodos de parámetro de la semana.
-20,60.72,64.0," Entonces, en este caso, decidimos elegir 3 clasificadores,"
-21,64.04,66.08, pero podemos elegir lo más que queremos.
-22,66.2,68.72, Y aquí están nuestros 3 leonardos.
-23,68.8,71.72, El primero tenía un score correcto de 7 y correcto de 3.
-24,71.76,75.6, El segundo tiene 11 y 3 y el tercer tiene 19 y 3.
-25,75.68,79.76," Entonces, cada uno de los leonardos se asoció a un set de data scale"
-26,79.84,84.28, y también se asoció a el score correcto y el score incorrecto.
-27,84.4,86.92, Estos números son importantes cuando se combina
-28,86.92,89.32000000000001," estos 3 leonardos de la semana en un león fuerte,"
-29,89.32000000000001,91.0, que es lo que vamos a aprender el próximo.
-30,93.12,95.48," Ok, entonces, ahora que tenemos los 3 leonardos de la semana,"
-31,95.48,98.2, les mostré cómo combinarlos en uno león fuerte.
-32,98.28,100.4," La idea es muy simple, vamos a hacerlos votar."
-33,100.48,102.2," En otros palabras, si tenemos un punto aquí"
-34,102.2,104.0," y queremos saber el label predictivo,"
-35,104.0,107.32, simplemente tenemos que ver qué label es dada a ese punto
-36,107.36,108.6, por los 3 leonardos de la semana.
-37,108.68,111.2," Y los labels son de red para el primero,"
-38,111.2,112.4," de blu para el segundo,"
-39,112.4,114.0, y de blu para el tercer.
-40,114.04,115.92, Así que eso es 1 de red y 2 de blu.
-41,115.96,117.24," Entonces, cuando nos lo hacemos votar,"
-42,117.44,121.08, entonces vamos a tener que el label es blu.
-43,121.16,123.0, Ahora vamos a hacer eso por cada punto.
-44,123.32,125.08, Así que una forma simple de hacer esto es
-45,125.08,127.08, poner más de 1 en las regiones blu
-46,127.08,129.6, y menos de 1 en las regiones redas.
-47,129.68,132.48," Y luego, para imponer las regiones,"
-48,132.64,136.0, y luego ver qué son los labels
-49,136.0,137.2," en cada una de estas regiones,"
-50,137.2,138.72, dada por los clasifiers.
-51,138.76,139.96," Entonces, el primer clasifier"
-52,139.96,142.04, le da un plus de 1 a estas regiones
-53,142.04,143.64, y un menos de 1 a estas.
-54,143.83999999999997,145.95999999999998, El segundo le da un plus de 1 a estas regiones
-55,145.95999999999998,147.44, y un menos de 1 a estas.
-56,148.07999999999998,150.07999999999998," Y el tercer, un plus de 1 a estas regiones"
-57,150.07999999999998,151.79999999999998, y un menos de 1 a estas dos.
-58,151.83999999999997,154.48," Y así, para saber el label de cada uno de las 6 regiones"
-59,154.48,156.2, debajo de todo lo que tenemos que hacer es
-60,156.35999999999999,158.55999999999997, agregar los tres números.
-61,158.79999999999998,161.48," Y cuando obtenemos un número que es positivo,"
-62,161.64,163.92, entonces vamos a decir que el label es blu.
-63,164.23999999999998,165.95999999999998," Y cuando obtenemos un label que es negativo,"
-64,166.04,168.27999999999997, entonces vamos a decir que el label es red.
-65,168.64,170.2, Y eso es lo que obtenemos.
-66,170.23999999999998,172.76, Los labels para todas esas 6 regiones.
-67,172.88,173.95999999999998," Hay mayores que son zeros,"
-68,174.0,175.76, que significa que para aquellos que el clasifier
-69,175.76,177.39999999999998," no realmente sabe si son de red o blu,"
-70,177.39999999999998,179.28, así que podemos justificarlos randommente.
-71,179.44,181.64, Pero la buena noticia es que esto
-72,181.64,184.0," ocurra con una muy, muy, muy pequeña probabilidad,"
-73,184.0,185.95999999999998, especialmente si tenemos muchos leyes de la clasifier.
-74,186.0,186.95999999999998," Entonces, el voto funciona,"
-75,186.95999999999998,188.95999999999998, pero en realidad la manera de combinar el clasifier
-76,188.95999999999998,190.6, es un poco más complicada.
-77,190.72,191.51999999999998, Pero no mucho.
-78,191.64,194.07999999999998, La idea es combinarlos con votos de la clasifier.
-79,194.12,194.95999999999998," Entonces, ¿qué significa?"
-80,195.0,196.28," Es decir, algunos leyes de la clasifier"
-81,196.28,197.79999999999998, tienen más fases que otros.
-82,198.04,199.64, Y eso depende de cómo bien ellos hacen.
-83,199.84,200.84," Entonces, un leyes de la clasifier"
-84,200.84,202.2, que aprende el dato muy bien
-85,202.2,204.35999999999999, tiene más votos que uno que no es tan bueno.
-86,204.39999999999998,205.79999999999998," Para eso, necesitamos un poco de la maestra,"
-87,205.79999999999998,206.79999999999998, que viene después.
-88,208.72,209.88," Entonces, vamos a probar un poco."
-89,209.92,211.28, Digamos que tenemos un coño
-90,211.28,212.07999999999998, y es un bias...
+0,0.0,2.0, Interesting.
+1,2.0,5.0, The Harvard men never ask that question.
+2,5.0,20.2," To get the clearest picture of these lives, we don't just send them questionnaires."
+3,20.2,22.68, We interview them in their living rooms.
+4,22.68,25.560000000000002, We get their medical records from their doctors.
+5,25.560000000000002,26.76, We draw their blood.
+6,26.76,28.080000000000002, We scan their brains.
+7,28.080000000000002,29.8, We talk to their children.
+8,29.8,35.160000000000004, We videotape them talking with their wives about their deepest concerns.
+9,35.160000000000004,39.96, And when about a decade ago we finally asked the wives if they would join us as members
+10,39.96,44.92," of the study, many of the women said, you know, it's about time."
+11,44.92,46.84, So what have we learned?
+12,46.84,52.72, What are the lessons that come from the tens of thousands of pages of information that
+13,52.72,56.28, we've generated on these lives?
+14,57.0,63.88," Well, the lessons aren't about wealth or fame or working harder and harder."
+15,63.88,70.36, The clearest message that we get from this 75-year study is this.
+16,70.36,74.6, Good relationships keep us happier and healthier.
+17,74.6,76.4, Period.
+18,76.4,80.16, We've learned three big lessons about relationships.
+19,80.16,86.84, The first is that social connections are really good for us and that loneliness kills.
+20,86.84,93.52," It turns out that people who are more socially connected to family, to friends, to community"
+21,93.52,99.0," are happier, they're physically healthier, and they live longer than people who are"
+22,99.0,101.84, less well connected.
+23,101.84,105.36, And the experience of loneliness turns out to be toxic.
+24,105.36,112.36, People who are more isolated than they want to be from others find that they are less
+25,112.36,118.92," happy, their health declines earlier in midlife, their brain functioning declines sooner, and"
+26,118.92,123.56, they live shorter lives than people who are not lonely.
+27,123.56,130.16, And the sad fact is that at any given time more than one in five Americans will report
+28,130.16,132.52, that they're lonely.
+29,132.52,137.84, And we know that you can be lonely in a crowd and you can be lonely in a marriage.
+30,137.84,142.16000000000003, So the second big lesson that we learned is that it's not just the number of friends
+31,142.16000000000003,146.88," you have and it's not whether or not you're in a committed relationship, but it's the"
+32,146.88,152.0, quality of your close relationships that matters.
+33,152.0,157.20000000000002," It turns out that living in the midlife, it's not just about loneliness."

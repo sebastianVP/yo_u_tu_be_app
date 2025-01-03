@@ -1,0 +1,17 @@
+Boosting is a method that aims to improve the performance of any supervised learning algorithm by
+combining the results of several weak or base classifiers to obtain a robust final classifier.
+One of the most popular Boosting techniques is the Adaptive Boosting algorithm (AdaBoost). This
+algorithm, through an iterative training of the weak or base classifiers, gives greater importance to
+the previously misclassified data, and in this way obtains a new classifier, Achieving better results
+increasing the accuracy of the algorithm.
+In the present article, with the objective of evaluating the performance of the AdaBoost algorithm,
+Logistic Regression and SMO (Sequential minimal optimization) classification methods are
+applied, with and without the AdaBoost algorithm to a set of texts. Then, the results obtained from
+the classification methods are compared with the results considered them as the base algorithm for
+AdaBoost. The classification criteria used was the gender to which the text belongs (Scientific /
+Non-Scientific). The characterization of the texts is based on the frequency distribution of the
+morpho-syntactic categories. The final results of the different classifiers considered are evaluated
+by percentages of bad classification. It was observed that when applying AdaBoost considering the
+Logistic Regression method as a basic algorithm, there was no reduction in the percentage of
+misclassification. In contrast, in the case of the SMO method as a base algorithm, the percentage of
+bad classification fell by 8.67%.

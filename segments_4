@@ -1,36 +1,53 @@
 id,start,end,text
-0,0.0,5.42, 1.3 y 1.85. Esto será el escurso de calidad para cada de los leuconarios. En otro
-1,5.42,10.34," caso, esto es cómo votar cada uno de ellos cuando combinamos."
-2,10.34,14.200000000000001," Entonces, con este escurso de calidad vamos a jugar el mismo juego de votación que"
-3,14.200000000000001,18.62, hemos jugado antes. Eso significa que nos asignamos 0.85 de votación al primer
-4,18.62,24.900000000000002," leuconario, 1.3 al segundo y 1.85 al tercer. Entonces lo que hacemos es que vamos a multiplicar"
-5,24.9,30.7, estos 1 y el menos de los antes por el escurso de calidad de cada uno de los leuconarios.
-6,30.7,38.92," Entonces vamos a dar 0.85 para estos 1, 1.3 al segundo y 1.85 para el escurso de"
-7,38.92,43.379999999999995, los leuconarios al tercer. Y ahora vamos a añadirlos como antes para el primer
-8,43.379999999999995,48.9," leuconario, para el segundo y para el tercer. Y cuando añadimos,"
-9,48.9,53.76," tenemos algunos valores positivos y negativos. Cuando los valores son positivos,"
-10,53.839999999999996,58.58, entonces vamos a decir que ese región se clasifica como azul y cuando son negativos
-11,58.58,62.519999999999996, se clasifica como rojo. Y de esa manera combinamos estos leuconarios para formar
-12,62.519999999999996,66.96, un leuconario fuerte. Y vean que este leuconario es muy bueno porque
-13,66.96,71.8, maneja para clasificar el整te data set correctamente. Entonces eso es cómo
-14,71.8,77.32, la boost de calidad funciona. La siguiente cosa que voy a mostrar es un ejemplo de coden.
-15,77.32,80.6, Entonces ahora vamos a hacer un código. El ejemplo que voy a mostrar a vos aparece en
-16,80.6,83.83999999999999, el link de la reposición de GitHub en los comentarios que puedes accesar para
-17,83.83999999999999,87.19999999999999," freír. Este es el repos de mi libro, Más que un Lenguaje de Más. Que tiene un"
-18,87.19999999999999,91.39999999999999," entorno de un chapter de la boost, de la boost, de la boost random, de la boost xg etcétera."
-19,91.39999999999999,94.16," En el final del vídeo, puedes ver un link con el código de discurso si quieres"
-20,94.16,97.11999999999999," verlo. Pero como dije, el código es accesible a"
-21,97.11999999999999,102.16," nadie en GitHub. Entonces en el código de la la, tenemos este set de data aquí y vamos a"
-22,102.16,106.36, fitar un model de la boost de edad. Y esto es muy fácil con un par de líneas de
-23,106.36,110.36, coden. Primero vamos a importar el clasifier de la boost de edad de la boost de edad de la
-24,110.36,115.76," la package de la aprendizaje de la cica. Y luego usamos la función fit, que es todo lo"
-25,115.76,119.68, que hacemos. También puedes usar la función score para ver cómo el clasifier está haciendo.
-26,119.68,124.52," Entonces cuando fitamos el clasifier, se hace el siguiente. Esto es el piso de la"
-27,124.52,127.72," luna de la luna de la mejor manera. Nota que lo hizo muy bien, solo ha hecho un"
-28,127.72,132.56, par de mispetos. Pero nota algo más. Hay este parámetro aquí que llama
-29,132.68,137.16," estimator, que es lo que dije a 6. Eso significa que usamos 6 leonardos de la luna de la"
-30,137.16,140.92000000000002, la mejor manera de construir este leonard. Y podemos verlo. Estos son los 6 leonardos de la
-31,140.92000000000002,144.92000000000002, la mejor manera de verlo. Nota que el leonard que es el resultado es una
-32,144.92000000000002,149.8, superimposición de estos. Puedemos ver los weights que tienen usando esta
-33,149.8,155.76," función de los estimatores y en este caso, son todos de una. Entonces, de hecho, lo que"
-34,155.76,159.92000000000002, tenemos es una posición de la posibilidad de todos los leonardos blockados para crear el
+0,0.0,2.66, is so hard to get and so easy to ignore?
+1,4.08,5.5200000000000005," Well, we're human."
+2,5.5200000000000005,8.36," What we'd really like is a quick fix,"
+3,8.36,11.48, something we can get that'll make our lives good
+4,11.48,12.72, and keep them that way.
+5,13.8,17.16, Relationships are messy and they're complicated
+6,17.16,21.0," and the hard work of tending to family and friends,"
+7,21.0,23.68, that's not sexy or glamorous.
+8,23.68,25.36, It's also lifelong.
+9,25.36,27.04, It never ends.
+10,27.04,29.599999999999998, The people in our 75-year study
+11,29.599999999999998,32.08, who were the happiest in retirement
+12,32.08,34.16, were the people who had actively worked
+13,34.16,38.0, to replace workmates with new playmates.
+14,38.0,40.96," Just like the millennials in that recent survey,"
+15,40.96,43.239999999999995," many of our men, when they were starting out"
+16,43.239999999999995,47.76," as young adults, really believed that fame and wealth"
+17,47.76,50.72, and high achievement were what they needed to go after
+18,50.72,52.6, to have a good life.
+19,52.6,55.36," But over and over, over these 75 years,"
+20,55.36,58.96, our study has shown that the people who fared the best
+21,58.96,62.519999999999996, were the people who leaned into relationships
+22,62.519999999999996,65.72," with family, with friends, with community."
+23,67.6,68.68, So what about you?
+24,69.56,73.3, Let's say you're 25 or you're 40 or you're 60.
+25,74.28,77.12, What might leaning into relationships even look like?
+26,78.28,82.12," Well, the possibilities are practically endless."
+27,82.12,86.2, It might be something as simple as replacing screen time
+28,86.2,90.54, with people time or livening up a stale relationship
+29,90.54,92.72," by doing something new together,"
+30,92.72,94.80000000000001," long walks or date nights,"
+31,95.92,98.04, or reaching out to that family member
+32,98.04,100.76, who you haven't spoken to in years
+33,100.76,104.24000000000001, because those all too common family feuds
+34,104.24000000000001,108.52000000000001, take a terrible toll on the people who hold the grudges.
+35,109.39999999999999,113.52, I'd like to close with a quote from Mark Twain.
+36,114.67999999999999,116.96," More than a century ago,"
+37,116.96,121.08, he was looking back on his life and he wrote this.
+38,122.08,127.08," There isn't time so brief his life for bickering,"
+39,127.19999999999999,131.0," apologies, heartburnings, callings to account."
+40,132.04,136.04," There is only time for loving and but an instant,"
+41,136.12,139.72," and but an instant, so to speak, for that."
+42,141.32,145.72, The good life is built with good relationships.
+43,145.72,146.56, Thank you.
+44,146.56,147.39999999999998, Thank you.
+45,147.39999999999998,148.23999999999998, Thank you.
+46,148.23999999999998,149.07999999999998, Thank you.
+47,149.07999999999998,149.92, Thank you.
+48,149.92,150.76, Thank you.
+49,150.76,151.6, Thank you.
+50,151.6,152.44, Thank you.
+51,152.44,153.28, Thank you.
