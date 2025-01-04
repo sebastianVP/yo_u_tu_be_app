@@ -77,3 +77,6 @@ Funcionalidades del Agente
 * streamlit run app_transcripcion.py
 
 
+![EJECUCION](/IMAGENES/4_FINAL.PNG)
+
+
