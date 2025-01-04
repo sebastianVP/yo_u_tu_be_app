@@ -1,37 +1,45 @@
 id,start,end,text
-0,0.0,18.68, What keeps us healthy and happy as we go through life?
-1,18.68,23.28," If you were going to invest now in your future best self,"
-2,23.28,27.28, where would you put your time and your energy?
-3,27.28,29.560000000000002, There was a recent survey of millennials
-4,29.56,34.879999999999995, asking them what their most important life goals were.
-5,34.879999999999995,39.16, And over 80% said that a major life goal for them
-6,39.16,41.04, was to get rich.
-7,41.04,45.4, And another 50% of those same young adults
-8,45.4,48.96, said that another major life goal was to become famous.
-9,52.32,55.879999999999995," And we're constantly told to lean in to work,"
-10,55.88,60.96," to push harder, and achieve more."
-11,60.96,63.120000000000005, We're given the impression that these are the things
-12,63.120000000000005,66.48, that we need to go after in order to have a good life.
-13,66.48,70.96000000000001," Pictures of entire lives, of the choices that people make,"
-14,70.96000000000001,74.0," and how those choices work out for them,"
-15,74.0,78.16, those pictures are almost impossible to get.
-16,78.16,81.16," Most of what we know about human life,"
-17,81.16,84.72, we know from asking people to remember the past.
-18,84.72,89.48," And as we know, hindsight is anything but 2020."
-19,89.48,93.24, We forget vast amounts of what happens to us in life.
-20,93.24,96.8, And sometimes memory is downright creative.
-21,96.8,101.28, But what if we could watch entire lives
-22,101.28,104.12, as they unfold through time?
-23,104.12,106.72, What if we could study people from the time
-24,106.72,110.96000000000001, that they were teenagers all the way into old age
-25,111.0,115.67999999999999, to see what really keeps people happy and healthy?
-26,115.67999999999999,117.75999999999999, We did that.
-27,117.75999999999999,120.0, The Harvard study of adult development
-28,120.0,125.75999999999999, may be the longest study of adult life that's ever been done.
-29,125.75999999999999,134.12," For 75 years, we've tracked the lives of 724 men, year after"
-30,134.12,138.0," year, asking about their work, their home lives, their health,"
-31,138.0,140.4," and of course, asking all along the way"
-32,140.4,145.36, without knowing how their life stories were going to turn out.
-33,145.36,149.04, Studies like this are exceedingly rare.
-34,149.04,153.16, Almost all projects of this kind fall apart within a decade
-35,153.16,157.04, because of the COVID-19 pandemic.
+0,0.0,6.88," Hola, soy Luis Serrano y este es Serrano Academy y este video es sobre AdaBoost. En algunos métodos"
+1,6.88,10.64, son un super útil para combinar un montón de modelos de la máquina de la máquina de la O.K.
+2,10.64,16.72," a un gran modelo increíble. ¿Y qué significa por modelos de la O.K.? Bueno, te sorprende, pero"
+3,16.72,20.96," como longas las modelos son un poco mejor que una gran oportunidad, pueden ser combinadas"
+4,20.96,25.84," a un modelo muy bueno. Entonces, si las acuerzas son solo más de 50%,"
+5,25.919999999999998,29.92, podrías cleveramente combinarlos para un modelo con una muy alta acuerza.
+6,29.92,33.84," Para ilustrar los métodos de assemblos imagínate que tienes que hacer un examen difícil y,"
+7,33.84,37.28," digamos, es un examen de la casa de la casa. Entonces, te enlistas a algunos amigos para ayudarte y digamos que"
+8,37.28,41.28," esto es de acuerdo, no estamos en la juzgar. En particular, hay dos métodos similares que se"
+9,41.28,45.92," llaman de bagging y de boost, los que puedes usar. Los dos consisten de un montón de amigos para"
+10,45.92,50.32," ayudarnos con las preguntas de los exames. Vamos a llamar a amigos pocos leonistas, que son un poco"
+11,50.32,55.2," difícil primero, pero es significado que emphasizes que nuestros amigos no necesitan ser geniosos para"
+12,55.28,60.080000000000005," poder ayudar a nosotros a hacer un examen wonderfully bueno. En realidad, como longas nuestros amigos son"
+13,60.080000000000005,65.28," un poco mejor que la mayoría, estamos bien. Y aquí es cómo el bagging funciona. Para el bagging,"
+14,65.28,71.12, vamos a elegir a los amigos randommente y vamos a hacer nuestros amigos responder los test.
+15,71.76,76.0," Una vez que han respondido, pueden ser correctos o malos para algunas de las preguntas, pero eso no"
+16,76.0,82.0," importa. Vamos a combinar los respos en algún modo. Puede ser hecho por votar, puede ser hecho por"
+17,82.08,86.72," agarrar, ese punto no importa. Hay un mejor manera de hacerlo, pero que es boosting,"
+18,86.72,91.12," es el segundo método. Aquí tenemos un modo metodológico para elegir a amigos, así que elegimos"
+19,91.12,96.08," a nuestro primer amigo randommente. Entonces, hacemos a nuestro amigo en el examen y vemos cómo ellos"
+20,96.08,100.32," hacen. Nuestro primer amigo puede tener algunas fuerzas y algunas weaknesses. Vamos a decir, por ejemplo,"
+21,100.32,104.8," que son muy buenas en la maquina, pero mal en la geografía. No hay problema, vamos a elegir a un segundo"
+22,104.8,110.24000000000001, amigo que es bueno en la geografía para tomar el examen. Y digamos que vamos a combinar estos dos testes
+23,110.32,116.16," y hemos notado que juntos, hicieron la maquina y la geografía, pero hicieron realmente malo en la biología"
+24,116.16,120.96, y la física. Vamos a elegir a el tercer amigo para ser muy buenos en la geometría de la física
+25,120.96,125.6," y así y así por el tiempo que elegimos a un nuevo amigo, vamos a asegurar que ellos son buenos"
+26,125.6,130.95999999999998, en las weaknesses que todos los otros tienen. Eso es llamado boosting y en este video voy a mostrar
+27,130.95999999999998,134.88," a vosotras a boost, que es un método boosting muy importante en la maquina."
+28,135.84,140.79999999999998," Ok, vamos a empezar con este dataset que tiene dos labios, el triángulo blanco y el"
+29,140.79999999999998,144.88, cuadro red. Y la idea es para construir un clasificador para que se vea un modelo que puede
+30,144.88,148.56," contar estos dos labios aparte. Entonces, aquí es un buen modelo, es el que construye esta"
+31,148.56,154.56, línea entre ellos y clasifica todo a una lado como un triángulo blanco y todo a la otra
+32,154.56,158.88," lado como un cuadro red. Ahora, esto es bueno, pero este clasificador es tan complexo, tiene un mucho"
+33,158.88,164.24," de pequeños piezas en la línea, así que es complicado. ¿Puede hacer bien con un simple clasificador?"
+34,164.32000000000002,170.56," Y con un simple clasificador, significa algo como una línea vertical o una línea horizontal."
+35,170.56,174.64000000000001, Estos son algunos de los clasificadores simples que pueden construir. Si estás interesado en los
+36,174.64000000000001,179.36," árboles de decisión, esto es un árbol de decisión con sólo uno de los debajo. Si te gusta aprender más"
+37,179.36,183.28," sobre los árboles de decisión, recomiendo este video que tengo en mi canal y también es link en los"
+38,183.28,188.24," comentarios. Pero con clasificadores no siempre hay que ser árboles de decisión o nada en particular,"
+39,188.24,192.56," como longas son simples, fácil de construir y como longas hacen un poco mejor que una"
+40,192.56,197.68," random choice, que es 50%, podrá combinarlos a un gran clasificador. Esto es la propiedad"
+41,197.68,202.88, increíble de AdaBoost. Puede convertir clasificadores en un buen. Así que vamos a construir algunos simples
+42,202.88,207.16, clasificadores y vamos a llamar estos los leonistas pocos. Vamos a construir leonistas pocos en una
+43,207.16,211.52," manera clave. Vamos a empezar a construir uno de ellos. Vamos a decir que es esta línea vertical aquí,"

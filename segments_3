@@ -1,36 +1,81 @@
 id,start,end,text
-0,0.0,3.0, of conflict is really bad for our health.
-1,3.0,7.0," High-conflict marriages, for example, without much affection"
-2,7.0,13.0," turn out to be very bad for our health, perhaps worse than getting divorced."
-3,13.0,18.0," And living in the midst of good, warm relationships is protective."
-4,18.0,21.0," Once we had followed our men all the way into their 80s,"
-5,21.0,24.0, we wanted to look back at them at midlife
-6,24.0,29.0," and to see if we could predict who was going to grow into a happy, healthy octogenarian,"
-7,29.0,31.0, and who wasn't.
-8,31.0,37.0," And when we gathered together everything we knew about them at age 50,"
-9,37.0,43.0, it wasn't their middle-aged cholesterol levels that predicted how they were going to grow old.
-10,43.0,47.0, It was how satisfied they were in their relationships.
-11,47.0,51.0, The people who were the most satisfied in their relationships at age 50
-12,51.0,55.0, were the healthiest at age 80.
-13,55.0,62.0," And good, close relationships seemed to buffer us from some of the slings and arrows of getting old."
-14,62.0,68.0, Our most happily-partnered men and women reported in their 80s
-15,68.0,74.0," that on the days when they had more physical pain, their moods stayed just as happy."
-16,74.0,77.0," But the people who were in unhappy relationships,"
-17,77.0,80.0," on the days when they reported more physical pain,"
-18,80.0,84.0, it was magnified by more emotional pain.
-19,84.0,89.0, And the third big lesson that we learn about relationships and our health
-20,89.0,94.0," is that good relationships don't just protect our bodies, they protect our brains."
-21,94.0,102.0, It turns out that being in a securely attached relationship to another person in your 80s
-22,102.0,106.0, is protective that the people who are in relationships where they really feel
-23,106.0,109.0," they can count on the other person in times of need,"
-24,109.0,113.0," those people's memories stay sharper, longer."
-25,113.0,117.0," The people in relationships where they feel they really can't count on the other one,"
-26,117.0,122.0, those are the people who experienced earlier memory decline.
-27,122.0,126.0," And those good relationships, they don't have to be smooth all the time."
-28,126.0,131.0," Some of our octogenarian couples could bicker with each other day in and day out,"
-29,131.0,136.0," but as long as they felt that they could really count on the other when the going got tough,"
-30,136.0,141.0, those arguments didn't take a toll on their memories.
-31,141.0,149.0," So this message that good close relationships are good for our health and well-being,"
-32,149.0,152.0, this is wisdom that's as old as the hills.
-33,152.0,156.0, Why is it so important to be in a relationship
-34,156.0,160.0, that you can't count on the other person in times of need?
+0,0.0,5.4," Entonces, a lo largo de la vida, se retorjarán tres veces de cada cuatro trajes y una vez de los tailos."
+1,5.4,9.4," Por supuesto, puede retorgar nada, pero notemos que la probabilidad de los tailos"
+2,9.4,11.88, va a ser tres cuartos.
+3,11.88,15.36, Eso es para tres trajes dividido por los cuatro trajes.
+4,15.36,19.32," Y la probabilidad de los tailos es su complemento, así que es una cuarta,"
+5,19.32,22.72, que es una taila dividida por los cuatro trajes.
+6,22.72,25.36, Pero parece que la probabilidad no es exactamente lo que hay aquí.
+7,25.36,31.32," Queremos las odds y la odd es muy similar, excepto, en vez de dividir por el número total de trajes,"
+8,31.32,34.480000000000004, dividimos el número de trajes por el número de tailos.
+9,34.480000000000004,38.2," Entonces, el odd de obtener los trajes va a ser tres por uno."
+10,38.2,41.68," Y el odd de trajes va a ser el inversor multiplicativo,"
+11,41.68,45.96," que es una tercera, que es una taila dividida por los tres trajes."
+12,45.96,48.84," La odd es usada mucho en muchos lugares, en particular en el sport,"
+13,48.84,53.04, puedes escuchar cosas como los odd de ganar un juego particular o tal.
+14,53.12,56.36, Pero vamos a hacer alguna plada para ver cómo las odd son.
+15,56.36,60.0," Entonces, aquí tenemos las odd de la cabeza, que es tres,"
+16,60.0,63.28," y aquí tenemos las odd de los tailos, que es una tercera."
+17,63.28,66.0," Y nos gustaría tener algo simétrico, pero tenemos un pequeño problema,"
+18,66.0,67.4, que es que esto no es simétrico.
+19,67.4,69.96000000000001," Imagínate si las odd no eran tres y una tercera,"
+20,69.96000000000001,72.28, pero en vez de que son siete y un séventh.
+21,72.28,76.0," Si su coi fue mucho más biased hacia la cabeza, más hacia las tailas."
+22,76.0,80.88, Y los puntos están aquí y notan que el centro es uno.
+23,80.96,83.75999999999999," Y como hacemos la coi más biased hacia las cabezas,"
+24,83.75999999999999,86.88," las odd de las tailas van más cerca y más cerca al cero,"
+25,86.88,91.39999999999999," mientras las odd de la cabeza explotan y van muy, muy, muy cerca."
+26,91.39999999999999,93.19999999999999, Dicimos que convergen hacia la infinidad.
+27,93.19999999999999,94.56," Entonces, ese es el problema."
+28,94.56,97.44," ¿Qué podemos hacer para hacer esto un poco más simétrico,"
+29,97.44,101.03999999999999, para que no es tan pequeño en la izquierda y gigante en la izquierda?
+30,101.03999999999999,103.75999999999999," Bueno, hay una función que nos va a salvar."
+31,103.75999999999999,106.56, Y la función que nos va a salvar es el logaritmo.
+32,107.32000000000001,114.04," Recuerden, aquí tenemos las tres, la tercera, la siete y la de los siete."
+33,114.04,118.60000000000001, Y aquí es el uno y tenemos una asimetría hacia la izquierda
+34,118.60000000000001,120.16, y hacia la derecha.
+35,120.16,121.52000000000001," Bueno, no hay problema."
+36,121.52000000000001,125.2," Si tomamos el logaritmo, entonces las cosas cambian."
+37,125.2,127.84," Por cierto, estoy tomando el logaritmo natural,"
+38,127.84,129.64000000000001," que es el e,"
+39,129.64000000000001,131.8, pero podemos tomar el logaritmo de nada más.
+40,131.8,134.6," Puede ser dos, puede ser diez, puede ser cualquier número que quieras."
+41,134.6,136.2, Y lo mismo se va a llevar.
+42,136.28,138.2," Las cosas están bien escaladas, los números se van a cambiar,"
+43,138.2,139.64, pero la simetría no va a cambiar.
+44,139.64,141.0," Entonces, cuando tomamos el logaritmo,"
+45,141.0,142.76," entonces el uno va a cero,"
+46,142.76,145.72, porque el logaritmo de uno siempre es cero.
+47,145.72,146.92, ¿Y qué pasa con tres?
+48,146.92,149.88," Bueno, el logaritmo de tres es 1.1"
+49,149.88,150.83999999999997, y vean esto.
+50,150.83999999999997,154.0," El logaritmo de una tercera es menos 1.1,"
+51,154.0,155.35999999999999, entonces hay simetría.
+52,155.35999999999999,156.44," Si hacemos esto para siete,"
+53,156.44,158.51999999999998," el logaritmo de siete es 1.95,"
+54,158.51999999999998,161.39999999999998, el logaritmo de siete es menos 1.95.
+55,161.39999999999998,163.07999999999998," Entonces, de nuevo, hay simetría."
+56,163.07999999999998,166.07999999999998, Y la razón para la simetría es que el logaritmo de uno o dos
+57,166.16000000000003,168.64000000000001, es el negativo del logaritmo de x.
+58,168.64000000000001,170.68," Esto es una función muy popular,"
+59,170.68,172.4," es llamada logODS,"
+60,172.4,174.08, y también es llamada logGit.
+61,174.08,176.20000000000002, Se aparece en todo el machine learning.
+62,176.20000000000002,177.52, Y vamos a usarlo
+63,177.52,179.76000000000002, para ayudar a combinar los clasificadores.
+64,181.8,182.8," Ok, entonces, reconocemos que"
+65,182.8,184.88000000000002," tuvimos nuestros tres con los estudiantes aquí,"
+66,184.88000000000002,187.36, cada uno de ellos con un número correcto
+67,187.36,188.36," y correctos puntos,"
+68,188.36,190.72000000000003, que fue un suma de los valores correctos
+69,190.72000000000003,193.16000000000003, y el suma de los valores incorrectos.
+70,193.16000000000003,194.16000000000003," Ahora, para cada uno de ellos,"
+71,194.16000000000003,195.68, vamos a calcular la probabilidad
+72,195.76000000000002,197.4," de estar correcto para el punto de vista normal,"
+73,197.4,199.24, pero la probabilidad de estar correcta.
+74,199.24,200.44," Eso significa que para el primero,"
+75,200.44,202.12," tenemos un odds de 7 por 3,"
+76,202.12,203.84," para el segundo, 11 por 3,"
+77,203.84,205.68," y para el tercer, 19 por 3."
+78,205.68,208.68," Y luego calculamos los odds log o logGit,"
+79,208.68,212.08, así que los valores que obtenemos son 0.85.

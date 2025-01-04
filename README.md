@@ -63,3 +63,9 @@ Funcionalidades del Agente
 * Texto transcrito y traducido.
 * Resumen del video en el idioma elegido.
 
+
+**EJECUCION**
+--- 
+
+* streamlit run app_transcripcion.py
+

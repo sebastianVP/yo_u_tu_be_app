@@ -1,35 +1,40 @@
 id,start,end,text
-0,0.0,2.0, Interesting.
-1,2.0,5.0, The Harvard men never ask that question.
-2,5.0,20.2," To get the clearest picture of these lives, we don't just send them questionnaires."
-3,20.2,22.68, We interview them in their living rooms.
-4,22.68,25.560000000000002, We get their medical records from their doctors.
-5,25.560000000000002,26.76, We draw their blood.
-6,26.76,28.080000000000002, We scan their brains.
-7,28.080000000000002,29.8, We talk to their children.
-8,29.8,35.160000000000004, We videotape them talking with their wives about their deepest concerns.
-9,35.160000000000004,39.96, And when about a decade ago we finally asked the wives if they would join us as members
-10,39.96,44.92," of the study, many of the women said, you know, it's about time."
-11,44.92,46.84, So what have we learned?
-12,46.84,52.72, What are the lessons that come from the tens of thousands of pages of information that
-13,52.72,56.28, we've generated on these lives?
-14,57.0,63.88," Well, the lessons aren't about wealth or fame or working harder and harder."
-15,63.88,70.36, The clearest message that we get from this 75-year study is this.
-16,70.36,74.6, Good relationships keep us happier and healthier.
-17,74.6,76.4, Period.
-18,76.4,80.16, We've learned three big lessons about relationships.
-19,80.16,86.84, The first is that social connections are really good for us and that loneliness kills.
-20,86.84,93.52," It turns out that people who are more socially connected to family, to friends, to community"
-21,93.52,99.0," are happier, they're physically healthier, and they live longer than people who are"
-22,99.0,101.84, less well connected.
-23,101.84,105.36, And the experience of loneliness turns out to be toxic.
-24,105.36,112.36, People who are more isolated than they want to be from others find that they are less
-25,112.36,118.92," happy, their health declines earlier in midlife, their brain functioning declines sooner, and"
-26,118.92,123.56, they live shorter lives than people who are not lonely.
-27,123.56,130.16, And the sad fact is that at any given time more than one in five Americans will report
-28,130.16,132.52, that they're lonely.
-29,132.52,137.84, And we know that you can be lonely in a crowd and you can be lonely in a marriage.
-30,137.84,142.16000000000003, So the second big lesson that we learned is that it's not just the number of friends
-31,142.16000000000003,146.88," you have and it's not whether or not you're in a committed relationship, but it's the"
-32,146.88,152.0, quality of your close relationships that matters.
-33,152.0,157.20000000000002," It turns out that living in the midlife, it's not just about loneliness."
+0,0.0,6.72, y la cantidad de valores incorrectos es 3 porque es este punto de misclasificación aquí y estos 2 aquí.
+1,6.72,12.96, Entonces ahora vamos a desbloquear los puntos incorrectos por un factor de 11 por 3 porque tenemos 11 correctos
+2,12.96,18.48," y 3 incorrectos. Es 3.67, que significa que estos 3 puntos aquí"
+3,18.48,23.38, se desbloquean por un factor de 3.67. Y continuamos jugando el juego. Este es nuestro
+4,23.38,29.22," nuevo data set de rescate y para este data set vamos a fitar un nuevo learner de la semana,"
+5,29.22,33.94," se debe obtener esos grandes puntos correctos y es este aquí. Entonces, ¿cuánto es este"
+6,33.94,39.94," clasificador? Bueno, ahora la cantidad de valores correctos va a ser 19 porque va a ser estos"
+7,39.94,46.58, y estos y la cantidad de puntos correctos va a ser aún 3 porque es este 3 por aquí y
+8,46.58,50.18," podemos continuar escaliando y construyendo leonardos, pero digamos que decidimos que"
+9,50.26,56.5," no vamos a dejar ahora, digamos que solo queremos 3 leonardos. Este es un parámetro de"
+10,56.5,59.94, hiper que podemos encontrar usando cualquier de sus favoritos métodos de parámetro de la
+11,59.94,64.82," tunación. Entonces en este caso, decidimos que pickar 3 clasificadores, pero podemos pickar"
+12,64.82,70.26, tantos como queremos. Y aquí están nuestros 3 leonardos. El primero tenía un score correcto de
+13,70.26,77.22," 7 y 3 correctos, el segundo tenía 11 y 3 y el tercer tenía 19 y 3. Entonces cada uno de los leonardos"
+14,77.22,84.34, se asoció a un set de data escala y también asoció a el score correcto y el score incorrecto.
+15,84.34,88.5, Estos números serán importantes cuando se combina a estos 3 leonardos de 3 en un
+16,88.5,90.74," fuerte leónardo, que es lo que vamos a aprender el próximo."
+17,93.06,96.74," Ok, ahora que tenemos los 3 leonardos de 3, vamos a mostrarles cómo combinarlos"
+18,96.74,100.74," en un fuerte leónardo. La idea es muy simple, vamos a hacerlos votar. En otros"
+19,100.74,104.9," casos, si tenemos un punto aquí y queremos saber el label predictivo, simplemente tenemos que"
+20,104.9,110.82000000000001, ver qué label es dada a ese punto por los 3 leonardos. Y los labels son red para el primer
+21,110.82000000000001,116.18," uno, azul para el segundo y azul para el tercer. Entonces eso es 1 red y 2 blu. Entonces cuando"
+22,116.18,123.30000000000001," hacemoslos votar, luego vamos a tener que el label es blu. Ahora vamos a hacer eso por cada punto."
+23,123.30000000000001,128.66, Así que una forma simple de hacer esto es poner más 1 en las regiones blu y menos 1 en las regiones
+24,128.66,136.57999999999998, redas y luego para overeimposar las regiones y luego ver qué son los labels en cada una de
+25,136.57999999999998,141.22, estas regiones dada por los clasificadores. Entonces el primer clasificador le da 1 a
+26,141.22,147.06," estas regiones y un 1-1 a estas regiones, el segundo le da 1 a estas regiones y un 1-1 a estas"
+27,147.06,153.06, regiones y el tercer 1 a estas regiones y un 1-1 a estas dos. Entonces para saber el label de
+28,153.14000000000001,159.54," cada uno de las 6 regiones abajo, todo lo que tenemos que hacer es añadir los 3 números y cuando"
+29,159.54,165.22," obtenemos un número que es positivo, luego vamos a decir que el label es blu y cuando obtenemos un label"
+30,165.22,171.06," que es negativo, luego vamos a decir que el label es red. Y eso es lo que obtenemos, los labels para"
+31,171.06,176.66," todos esos 6 regiones. Puede ser 0, que significa que para esos, el clasificador no realmente sabe si"
+32,176.66,181.62," son de blu o red, así que podemos justificarlos randommente, pero la buena noticia es que esto"
+33,181.70000000000002,185.94," ocurre con una probabilidad muy muy muy pequeña, especialmente si tenemos muchos lectores pocos."
+34,185.94,189.94," Entonces el voto funciona, pero en realidad la manera en que el clasificador combinó es un poco más"
+35,189.94,194.98000000000002," complicado, pero no mucho, la idea es que combinemoslos con votos de peso. Entonces ¿qué significa esto?"
+36,194.98000000000002,200.74," Es decir, algunos lectores pocos tienen más fases que otros y eso depende de cómo se hacen. Entonces un lector pocos"
+37,200.74,205.38, que aprende el data muy bien tiene más voto que uno que no es tan bueno. Para eso necesitamos un poco de
+38,205.38,211.7, mazo que viene después. Entonces vamos a tracar un poco. Vamos a decir que tenemos un coño y es un

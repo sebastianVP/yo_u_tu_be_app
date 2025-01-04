@@ -1,53 +1,92 @@
 id,start,end,text
-0,0.0,2.66, is so hard to get and so easy to ignore?
-1,4.08,5.5200000000000005," Well, we're human."
-2,5.5200000000000005,8.36," What we'd really like is a quick fix,"
-3,8.36,11.48, something we can get that'll make our lives good
-4,11.48,12.72, and keep them that way.
-5,13.8,17.16, Relationships are messy and they're complicated
-6,17.16,21.0," and the hard work of tending to family and friends,"
-7,21.0,23.68, that's not sexy or glamorous.
-8,23.68,25.36, It's also lifelong.
-9,25.36,27.04, It never ends.
-10,27.04,29.599999999999998, The people in our 75-year study
-11,29.599999999999998,32.08, who were the happiest in retirement
-12,32.08,34.16, were the people who had actively worked
-13,34.16,38.0, to replace workmates with new playmates.
-14,38.0,40.96," Just like the millennials in that recent survey,"
-15,40.96,43.239999999999995," many of our men, when they were starting out"
-16,43.239999999999995,47.76," as young adults, really believed that fame and wealth"
-17,47.76,50.72, and high achievement were what they needed to go after
-18,50.72,52.6, to have a good life.
-19,52.6,55.36," But over and over, over these 75 years,"
-20,55.36,58.96, our study has shown that the people who fared the best
-21,58.96,62.519999999999996, were the people who leaned into relationships
-22,62.519999999999996,65.72," with family, with friends, with community."
-23,67.6,68.68, So what about you?
-24,69.56,73.3, Let's say you're 25 or you're 40 or you're 60.
-25,74.28,77.12, What might leaning into relationships even look like?
-26,78.28,82.12," Well, the possibilities are practically endless."
-27,82.12,86.2, It might be something as simple as replacing screen time
-28,86.2,90.54, with people time or livening up a stale relationship
-29,90.54,92.72," by doing something new together,"
-30,92.72,94.80000000000001," long walks or date nights,"
-31,95.92,98.04, or reaching out to that family member
-32,98.04,100.76, who you haven't spoken to in years
-33,100.76,104.24000000000001, because those all too common family feuds
-34,104.24000000000001,108.52000000000001, take a terrible toll on the people who hold the grudges.
-35,109.39999999999999,113.52, I'd like to close with a quote from Mark Twain.
-36,114.67999999999999,116.96," More than a century ago,"
-37,116.96,121.08, he was looking back on his life and he wrote this.
-38,122.08,127.08," There isn't time so brief his life for bickering,"
-39,127.19999999999999,131.0," apologies, heartburnings, callings to account."
-40,132.04,136.04," There is only time for loving and but an instant,"
-41,136.12,139.72," and but an instant, so to speak, for that."
-42,141.32,145.72, The good life is built with good relationships.
-43,145.72,146.56, Thank you.
-44,146.56,147.39999999999998, Thank you.
-45,147.39999999999998,148.23999999999998, Thank you.
-46,148.23999999999998,149.07999999999998, Thank you.
-47,149.07999999999998,149.92, Thank you.
-48,149.92,150.76, Thank you.
-49,150.76,151.6, Thank you.
-50,151.6,152.44, Thank you.
-51,152.44,153.28, Thank you.
+0,0.0,2.2, 1.3 y 1.85.
+1,2.32,5.2, Esto será el escurso de calidad para cada de los leuconarios.
+2,5.2,10.32," En otro idioma, esto es cómo votar cada uno de ellos cuando combinamos."
+3,10.36,13.64," Entonces, ahora con este escurso de calidad vamos a jugar el mismo"
+4,13.64,15.08, juego de votación que hemos jugado antes.
+5,15.120000000000001,19.12," Eso significa que asignamos 0.85 de votación al primer leuconario,"
+6,19.56,22.92, 1.3 al segundo y 1.85 al tercer.
+7,23.04,26.560000000000002, Entonces lo que hacemos es multiplicar estos 1's y minus 1's de antes
+8,26.639999999999997,30.799999999999997, por el escurso de calidad de cada uno de los leuconarios.
+9,30.84,33.4," Entonces vamos a dar 0.85 para estos 1's,"
+10,34.0,39.84, 1.3 al segundo y 1.85 para los 1's correspondiendo al
+11,39.84,40.96, leuconario número 3.
+12,41.08,44.2," Y ahora vamos a ponerlos como antes para el primer leuconario,"
+13,44.28,47.4, para el segundo y para el tercer.
+14,48.04,51.519999999999996," Y cuando le adentremos, tenemos algunos valores que son positivos y negativos."
+15,51.84,53.879999999999995," Cuando los valores son positivos,"
+16,54.120000000000005,57.68, entonces vamos a decir que ese región se clasifica como blu
+17,57.800000000000004,60.040000000000006, y cuando son negativos se clasifica como rojo.
+18,60.040000000000006,64.0, Y de esa manera combinamos estos leuconarios para formar un leuconario fuerte.
+19,64.12,67.8, Y noten que este leuconario es muy bueno porque se maneja
+20,67.84,71.0, para clasificar el整te data set correctamente.
+21,71.08,72.68, Así que eso es cómo la boost de edad funciona.
+22,73.08,75.56, La siguiente cosa que voy a mostrar es un ejemplo de codenario.
+23,77.96000000000001,79.04, Entonces ahora vamos a hacer un código.
+24,79.16,82.68, El ejemplo que voy a mostrar a vos aparece en el link de GitHub repository aquí en los
+25,82.68,84.24000000000001, comentarios que puedes accesar para frecuencia.
+26,84.44000000000001,85.68," Este es el repos de mi libro,"
+27,85.68,86.64," El Lerner del Machinero,"
+28,86.68,88.68," que contiene una caída de un chapter de la boost,"
+29,88.68,91.48," boost, ad boost, random forest, XGBoost, etcétera."
+30,91.56,92.32000000000001," Al final del vídeo,"
+31,92.32000000000001,93.80000000000001," puedes ver un link con el código de la discurso,"
+32,93.80000000000001,95.04," si quieres verlo,"
+33,95.08000000000001,98.28," pero como dije, el código es accesible a alguien en GitHub."
+34,98.28,102.16000000000001," Entonces, el código de la web tiene este set de data aquí y vamos a"
+35,102.16000000000001,104.32000000000001, fitar un model de la boost de edad.
+36,104.44000000000001,106.72, Y esto es muy fácil con un par de líneas de código.
+37,106.84,109.76, Primero vamos a importar el clasifier de edad de boost de edad
+38,109.88000000000001,112.60000000000001, de la pack de la pack de sample de cicatelar.
+39,112.72,114.64," Y luego usamos la función fit,"
+40,114.84,116.12, que es todo lo que hacemos.
+41,116.2,119.36, También puedes usar la función score para ver cómo el clasifier está haciendo.
+42,119.56,121.28," Entonces cuando fitamos el clasifier,"
+43,121.36,122.64, hace el siguiente.
+44,122.80000000000001,125.76, Este es el pálito de los lernos que resultan en lernos fuertes.
+45,125.80000000000001,127.16000000000001," Nota que lo hizo bastante bien,"
+46,127.16000000000001,128.8, solo ha hecho un par de mis trucos.
+47,129.16,130.48000000000002," Pero nota algo más,"
+48,130.56,133.56," hay este parámetro aquí que se llama estimator N,"
+49,133.56,134.64000000000001, que lo hice hasta 6.
+50,134.72,138.52," Eso significa que usamos 6 lernos lernos para construir este lerno fuertes,"
+51,138.52,139.68, y podemos verlo en realidad.
+52,139.76,142.67999999999998, Estos son los 6 lernos fuertes aquí.
+53,142.72,147.2, Nota que el lerno fuertes es un superimposición de estos.
+54,147.28,148.88, Pueden ver los lernos que tienen
+55,148.95999999999998,153.2," usando esta función estimator y en este caso,"
+56,153.23999999999998,154.88, son todos al final.
+57,154.92,159.12," Entonces, lo que tenemos es una imposición de todos los lernos fuertes"
+58,159.16,160.79999999999998, para crear el lerno fuertes.
+59,161.28,162.07999999999998," Así que eso es todo, chicos."
+60,162.07999999999998,163.32, Gracias por la atención.
+61,163.32,164.28," Si te gusta este video,"
+62,164.28,165.72," por favor suscríbete a mi canal,"
+63,165.72,167.32, para que puedas ver más contenido.
+64,167.44,168.23999999999998," Hice like,"
+65,168.4,169.76, compartida o comentario.
+66,169.84,172.12, Puedes también ser un miembro de mi canal
+67,172.12,175.28, por unirme o también puedes apoyarme en Patreon.
+68,175.6,177.92, Mis videos siempre serán frecuentes para todos.
+69,178.0,179.2," Pero si eres un miembro,"
+70,179.23999999999998,180.84, puedes apoyarme mucho más
+71,180.88,183.2, y puedes obtener algunos perros muy coos
+72,183.23999999999998,185.04," como Early Access to Videos,"
+73,185.24,189.2, Q&As con mi y tu nombre en los videos.
+74,189.28,191.07999999999998," Puedes también seguirme en Twitter,"
+75,191.07999999999998,193.32," Serano Academy o cheque mi page,"
+76,193.32,194.92," que es Serano.academy,"
+77,195.0,196.28," donde tengo videos,"
+78,196.32,196.92," cursos,"
+79,196.95999999999998,198.11999999999998," postes de blog, etc."
+80,198.16,199.28," Y como mencioné en este video,"
+81,199.28,199.88," tengo un libro,"
+82,199.92,200.35999999999999," Más o menos,"
+83,200.35999999999999,200.83999999999997," Más o menos,"
+84,200.88,201.48," Más o menos,"
+85,201.56,203.95999999999998, y este video hoy aparece en la capta de la libro.
+86,204.04,204.88," Si quieres verlo,"
+87,204.88,206.27999999999997, hay un link en los comentarios
+88,206.32,208.56, y un codio de descuento por 40%.
+89,209.11999999999998,210.23999999999998, Así que gracias mucho
+90,210.44,211.67999999999998, y nos vemos en el próximo video.
