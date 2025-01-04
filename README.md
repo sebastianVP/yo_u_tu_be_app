@@ -20,7 +20,7 @@ Comandos necesarios:
 **OBJETIVO**
 ---
 
-Implementar un agente para descargar videos, resumir su contenido y traducirlo podría ser una aplicación o herramienta basada en inteligencia artificial que automatice las siguientes tareas:
+Implementar un agente para descargar videos, resumir su contenido y traducirlo,  esto debe dar como resultado una aplicación o herramienta basada en inteligencia artificial que automatice las siguientes tareas:
 
 Funcionalidades del Agente
 
