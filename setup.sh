@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Instalar FFmpeg si no está presente
+# Instalar FFmpeg si no esta presente
 if ! command -v ffmpeg &> /dev/null; then
     echo "FFmpeg no está instalado. Instalándolo ahora..."
     sudo apt update
